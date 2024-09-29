@@ -1,0 +1,7 @@
+vn\aptech\entity\Product.class
+vn\aptech\servlet\RemoveCart.class
+com\mycompany\mavenproject1\JakartaRestConfiguration.class
+com\mycompany\mavenproject1\resources\JakartaEE8Resource.class
+vn\aptech\servlet\ProductServlet.class
+vn\aptech\entity\CartItem.class
+vn\aptech\servlet\AddCart.class

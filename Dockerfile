@@ -1,0 +1,9 @@
+
+FROM tomcat:10.1.26
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+COPY ROOT.war /usr/local/tomcat/webapps
+
+EXPOSE 8080
+
+CMD ["catalina.sh", "run"]
