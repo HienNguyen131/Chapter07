@@ -1,5 +1,5 @@
 
-FROM tomcat:10.1.26
+FROM tomcat:9.0.93
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 COPY ROOT.war /usr/local/tomcat/webapps
